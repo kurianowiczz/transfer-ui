@@ -1,0 +1,28 @@
+.page {
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.header {
+    height: 100px;
+    background: blue;
+}
+
+.menu {
+    background: coral;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.content {
+}
+
+.footer {
+    height: 100px;
+    background: aquamarine;
+}
